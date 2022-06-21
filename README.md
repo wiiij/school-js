@@ -29,12 +29,13 @@
   디자인 코드로는 먼저 시계의 위치 자체를 가운데로 옮기고 난 뒤, 테두리와 배경을 넣어 꾸며주었습니다.<br>
   ![image](https://user-images.githubusercontent.com/102115231/174732494-58d00a50-ffae-40cd-89c6-d7b4bd4264b8.png)<br>
   스크립트 코드 입니다.<br>
-  hand에 초기 값은 0이기에 go 버튼을 누르지 않는한 바뀌지 않습니다.<br>
+  hand에 초기 값은 0이기에 go 버튼을 누르지 않는한 바뀌지 않고,<br>
+  go를 누르는 순간 값이 들어가며 바뀔것입니다. <br>
   ![image](https://user-images.githubusercontent.com/102115231/174733323-c89cedeb-e481-42de-b88a-be6406c92046.png)<br>
   ![image](https://user-images.githubusercontent.com/102115231/174733643-ec170a15-90ec-4dbe-b9fc-00a36e021f7c.png)<br>
   버튼을 만들어줄 코드입니다.<br>
   go버튼을 눌렀을때 hand에 값이 0이면 setInterval에 값을 넣어 시계가 돌아가도록 하는 것입니다.<br>
-  반대로 stop을 누르면 0이 되어 다시 돌아가지 않도록 하는 것입니다.<br>
+  반대로 stop을 누르면 0이 되어 다시 돌아가지 않도록 합니다.<br>
   
   
   
